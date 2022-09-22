@@ -7,6 +7,75 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="results.html" method="get">
     
+    <div>
+        <label>Voornaam</label>
+        <input type="text">
+    </div> 
+    <div>
+        <label>Achternaam</label>
+        <input type="text">
+    </div>
+<p>Geslacht</p>
+    <label for="Man">Man</label>
+    <input type="radio" name="gender" id="Man">
+    <label for="Vrouw">Vrouw</label>
+    <input type="radio" name="gender" id="Vrouw">
+
+<div>
+    <label>Straatnaam+Huisnummer</label>
+    <input type="text">
+</div>
+<div>
+    <label>Postcode</label>
+    <input type="text">
+</div>
+<div>
+    <label>Stad</label>
+    <input type="text">
+</div>
+<div>
+    <label>Land</label>
+        <input type="text">
+</div>
+
+<div>
+    <label for="BSN-Nummer">BSN-Nummer:</label>
+    <input type="text" id="BSN-Nummer" name="BSN-Nummer" maxlength="9"><br><br>
+</div>
+<div>
+    <label for="Vakantieland">Vakantieland:</label>
+    <select name="Vakantieland" id="Vakantieland">
+      <option value="Marokko">Marokko</option>
+      <option value="Turkije">Turkije</option>
+      <option value="Simbabwe">Simbabwe</option>
+      <option value="Egypte">Egypte</option>
+    </select>
+</div>
+<div>
+    Datum van vertrek
+    <input type="date" id="myDate" name="bday" min="2022-09-16" max="2040-01-01">
+</div>
+<div>
+    Datum van terugkomst
+    <input type="date" id="myDate" name="bday" min="2022-09-16" max="2040-01-01">
+</div>
+<div>
+    <label for="quantity">Aantal reisgenoten</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="4">
+</div>
+<div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd" minlength="5">
+</div>
+
+
+<div>
+<button>Boek nu</button>
+    </div>
+    </form>
 </body>
 </html>
