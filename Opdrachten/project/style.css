@@ -6,15 +6,22 @@ img {
   width: 30%;
   height: auto;
 }
+.header ig {
+  width: 1540px;
+  height: auto;
+}
 .header {
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-top: 0px;
   text-align: center;
   background: green;
-  font-size: 35px;
+  font-size: 0px;
 }
 body {
+background-image: url("la.jpg");
 margin: 0px;
+background-repeat: no-repeat;
+background-size: 1570px;
 }
 .tar {
 position: absolute;
@@ -29,5 +36,70 @@ text-align: center;
 }
 body {
     background-imae: url("la.jpg");
-    
+}
+.navbar {
+  overflow: hidden;
+  background-color:black;
+}
+
+.navbar a {
+  float: left;
+  position: relative;
+  height: auto;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+.navbar img {
+  float:left;
+  height: 60px;
+  width: auto;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:darkslategray
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
