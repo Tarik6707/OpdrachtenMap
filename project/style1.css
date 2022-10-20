@@ -2,10 +2,6 @@
 header {
     background-color: green;
    }
-   img {
-     width: 30%;
-     height: auto;
-   }
    .header ig {
      width: 1540px;
      height: auto;
@@ -24,19 +20,25 @@ header {
    background-size: 1570px;
    }
    .tar {
-   position: absolute;
-   left: 300px;
-   text-align: center;
+   position: relative;
+   top: 30px;
+   left: 30px;
+   }
+   .tar img {
+    height: 400px;
    }
    
    .ere {
      position: absolute;
      right: 300px;
-     text-align: center;
+     text-align: right;
    }
    .navbar {
-     overflow: hidden;
+     overflow:hidden;
      background-color:black;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
    }
    
    .navbar a {
@@ -48,15 +50,10 @@ header {
      text-align: center;
      padding: 20px 16px;
      text-decoration: none;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
    }   
-   .foto1 {
-    padding: 0px;
-    float:left;
-    height: 60px;
-    width: 80px;
-    overflow: hidden;
-     background-color:black;
-   }
 
    .navbar img {
      float:left;
@@ -109,4 +106,16 @@ header {
    .dropdown:hover .dropdown-content {
      display: block;
    }
-   
+   .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+   body {
+    background-color: green;
+   }

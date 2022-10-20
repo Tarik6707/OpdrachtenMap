@@ -43,33 +43,33 @@ height:200px;
 
 @media screen and (min-width:768px) and (max-width:1023px) {
 
-      .h1 {
-          background-color: lightcoral;
-      }
-      .T1 {
-          background-color:rgb(250,82, 191);
+.h1 {
+  background-color: lightcoral;
+}
+.T1 {
+  background-color:rgb(250,82, 191);
 
-      }
+}
 
-      .T2 {
-          background-color:rgb(0,64, 255);
-      }
+.T2 {
+  background-color:rgb(0,64, 255);
+}
 
-      .T3 {
-          background-color:rgb(111,0, 255);
-      }}
+.T3 {
+  background-color:rgb(111,0, 255);
+}
 
-      @mediaonly screen and (max-width:767px) {
+@mediaonly screen and (max-width:767px) {
 
-          .div {
-              width:20px;
-              height:20px;
-              background-color:rgb(11,10, 10);
-              display: flex;
-              margin-left: auto
-            }
+.div {
+  width:20px;
+  height:20px;
+  background-color:rgb(11,10, 10);
+  display: flex;
+  margin-left: auto
+}
  
-          }
+}
 
 
 
