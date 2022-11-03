@@ -25,20 +25,29 @@ header {
    left: 30px;
    }
    .tar img {
-    height: 400px;
+    height: 300px;
    }
-   
    .ere {
-     position: absolute;
-     right: 300px;
-     text-align: right;
+    font-style: italic;
+   }
+   .ere2 {
+  float:right;
+  text-align: center;
+  font-weight: bolder;
+  text-align: center;
+  font-style: oblique;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  white-space: pre-line;
+  width: 57%;
+  margin: 50px auto auto;
+  padding-left: 30px;
+  padding-right: 30px;
    }
    .navbar {
      overflow:hidden;
      background-color:black;
-     position: -webkit-sticky;
-     position: sticky;
-     top: 0;
    }
    
    .navbar a {
@@ -60,7 +69,19 @@ header {
      height: 60px;
      width: auto;
    }
-   
+   .plaatje {
+    font-weight: bolder;
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    white-space: pre-line;
+    width: 65%;
+    margin: 50px auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+   }
    .dropdown {
      float: left;
      overflow: hidden;
